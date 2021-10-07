@@ -9,9 +9,3 @@ export const reset = () => {
     type: 'RESET',
   };
 };
-
-export const secondroll = () => {
-  return {
-    type: ' SECONDROLL',
-  };
-};
