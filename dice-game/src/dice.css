@@ -1,0 +1,45 @@
+button {
+  --bg-color: rgb(182, 182, 182);
+  --fg-color: rgb(90, 70, 202);
+
+  padding: 0.5rem 0.75rem;
+  background-color: var(--bg-color);
+  border: 1px solid;
+  color: var(--fg-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: 300ms;
+  margin: 20px 0 10px 0;
+}
+
+button:hover {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+}
+
+h3 {
+  font-weight: 250; /* Thin */
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.5em 0;
+  color: black;
+  text-decoration: underline;
+}
+
+h3,
+p {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif; /* Weights from Typekit: 200, 900 */
+}
+
+.diceborder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(250, 112, 87);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
