@@ -1,10 +1,10 @@
-const rollReducer = (state = '', action) => {
+const secondRollReducer = (state = '', action) => {
   function roll() {
     const result = Math.floor(Math.random() * (6 - 1 + 1) + 1);
     return result;
   }
   switch (action.type) {
-    case 'ROLL':
+    case 'SECONDROLL':
       return roll();
     case 'RESET':
       return '';
@@ -13,4 +13,4 @@ const rollReducer = (state = '', action) => {
   }
 };
 
-export default rollReducer;
+export default secondRollReducer;
