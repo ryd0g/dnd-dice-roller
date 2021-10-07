@@ -1,6 +1,6 @@
 button {
   --bg-color: rgb(182, 182, 182);
-  --fg-color: rgb(90, 70, 202);
+  --fg-color: rgb(84, 136, 233);
 
   padding: 0.5rem 0.75rem;
   background-color: var(--bg-color);
