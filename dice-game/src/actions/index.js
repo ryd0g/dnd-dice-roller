@@ -10,6 +10,12 @@ export const reset = () => {
   };
 };
 
+export const resetd4 = () => {
+  return {
+    type: 'RESETD4',
+  };
+};
+
 export const resetd8 = () => {
   return {
     type: 'RESETD8',
@@ -37,6 +43,12 @@ export const resetd20 = () => {
 export const rolld20 = () => {
   return {
     type: 'ROLLD20',
+  };
+};
+
+export const rolld4 = () => {
+  return {
+    type: 'ROLLD4',
   };
 };
 
