@@ -7,7 +7,7 @@ const rollReducer = (state = 'D6', action) => {
     case 'ROLL':
       return roll();
     case 'RESET':
-      return '';
+      return 'D6';
     default:
       return state;
   }

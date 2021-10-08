@@ -7,7 +7,7 @@ const d10Reducer = (state = 'D10', action) => {
     case 'ROLLD10':
       return d10roll();
     case 'RESETD10':
-      return '';
+      return 'D10';
     default:
       return state;
   }
