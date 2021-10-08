@@ -3,6 +3,10 @@ import { useDispatch } from 'react-redux';
 import {
   roll,
   reset,
+  resetd8,
+  resetd10,
+  resetd12,
+  resetd20,
   rolld8,
   rolld10,
   rolld12,
@@ -42,7 +46,12 @@ function Dice() {
       <button onClick={() => dis(rolld10())}>Roll D10</button>
       <button onClick={() => dis(rolld12())}>Roll D12</button>
       <button onClick={() => dis(rolld20())}>Roll D20</button>
-      <button onClick={() => dis(reset())}>Reset</button>
+      <br />
+      <button onClick={() => dis(reset())}>Reset D6</button>
+      <button onClick={() => dis(resetd8())}>Reset D8</button>
+      <button onClick={() => dis(resetd10())}>Reset D10</button>
+      <button onClick={() => dis(resetd12())}>Reset D12</button>
+      <button onClick={() => dis(resetd20())}>Reset D20</button>
     </div>
   );
 }
