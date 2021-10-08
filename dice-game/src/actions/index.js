@@ -9,3 +9,9 @@ export const reset = () => {
     type: 'RESET',
   };
 };
+
+export const rolld20 = () => {
+  return {
+    type: 'ROLLD20',
+  };
+};
