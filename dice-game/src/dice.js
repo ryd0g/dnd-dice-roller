@@ -3,10 +3,12 @@ import { useDispatch } from 'react-redux';
 import {
   roll,
   reset,
+  resetd4,
   resetd8,
   resetd10,
   resetd12,
   resetd20,
+  rolld4,
   rolld8,
   rolld10,
   rolld12,
@@ -16,6 +18,7 @@ import './dice.css';
 
 function Dice() {
   const dice = useSelector((state) => state.rollReducer);
+  const d4dice = useSelector((state) => state.d4Reducer);
   const d8dice = useSelector((state) => state.d8Reducer);
   const d10dice = useSelector((state) => state.d10Reducer);
   const d12dice = useSelector((state) => state.d12Reducer);
@@ -25,6 +28,9 @@ function Dice() {
     <div className='diceroll'>
       <h2>DND Dice Roller 🎲</h2>
       <div className='dicebox'>
+        <div className='d4border'>
+          <h3>{d4dice}</h3>
+        </div>
         <div className='diceborder'>
           <h3>{dice}</h3>
         </div>
@@ -41,12 +47,14 @@ function Dice() {
           <h3>{d20dice}</h3>
         </div>
       </div>
+      <button onClick={() => dis(rolld4())}>Roll D4</button>
       <button onClick={() => dis(roll())}>Roll D6</button>
       <button onClick={() => dis(rolld8())}>Roll D8</button>
       <button onClick={() => dis(rolld10())}>Roll D10</button>
       <button onClick={() => dis(rolld12())}>Roll D12</button>
       <button onClick={() => dis(rolld20())}>Roll D20</button>
       <br />
+      <button onClick={() => dis(resetd4())}>Reset D4</button>
       <button onClick={() => dis(reset())}>Reset D6</button>
       <button onClick={() => dis(resetd8())}>Reset D8</button>
       <button onClick={() => dis(resetd10())}>Reset D10</button>
