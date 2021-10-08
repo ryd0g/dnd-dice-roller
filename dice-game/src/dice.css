@@ -44,6 +44,39 @@ p {
   border-radius: 10px;
 }
 
+.d8border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(23, 253, 127);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.d10border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(166, 34, 255);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.d12border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(255, 34, 119);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
 .d20border {
   display: flex;
   align-items: center;
