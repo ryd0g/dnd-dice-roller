@@ -9,12 +9,18 @@ button {
   border-radius: 0.5rem;
   font-size: 1rem;
   transition: 300ms;
-  margin: 20px 0 10px 0;
+  margin: 6px;
 }
 
 button:hover {
   background-color: var(--fg-color);
   color: var(--bg-color);
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
@@ -37,7 +43,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
   background-color: rgb(250, 112, 87);
   width: 65px;
   height: 65px;
@@ -48,7 +54,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
   background-color: rgb(23, 253, 127);
   width: 65px;
   height: 65px;
@@ -59,7 +65,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
   background-color: rgb(166, 34, 255);
   width: 65px;
   height: 65px;
@@ -70,7 +76,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
   background-color: rgb(255, 34, 119);
   width: 65px;
   height: 65px;
@@ -81,7 +87,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
   background-color: rgb(248, 217, 42);
   width: 65px;
   height: 65px;
