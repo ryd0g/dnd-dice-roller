@@ -1,4 +1,4 @@
-const rollReducer = (state = '', action) => {
+const rollReducer = (state = 'D6', action) => {
   function roll() {
     const result = Math.floor(Math.random() * (6 - 1 + 1) + 1);
     return result;
