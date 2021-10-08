@@ -37,9 +37,26 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 5px;
   background-color: rgb(250, 112, 87);
   width: 65px;
   height: 65px;
   border-radius: 10px;
+}
+
+.d20border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(248, 217, 42);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.dicebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
