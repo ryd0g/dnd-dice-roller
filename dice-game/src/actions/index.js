@@ -15,3 +15,21 @@ export const rolld20 = () => {
     type: 'ROLLD20',
   };
 };
+
+export const rolld8 = () => {
+  return {
+    type: 'ROLLD8',
+  };
+};
+
+export const rolld10 = () => {
+  return {
+    type: 'ROLLD10',
+  };
+};
+
+export const rolld12 = () => {
+  return {
+    type: 'ROLLD12',
+  };
+};
