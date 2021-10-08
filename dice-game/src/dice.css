@@ -50,6 +50,16 @@ p {
   border-radius: 10px;
 }
 
+.d4border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgb(79, 49, 250);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
 .d8border {
   display: flex;
   align-items: center;
