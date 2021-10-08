@@ -6,7 +6,7 @@ const d20Reducer = (state = 'D20', action) => {
   switch (action.type) {
     case 'ROLLD20':
       return d20roll();
-    case 'RESET':
+    case 'RESETD20':
       return '';
     default:
       return state;
