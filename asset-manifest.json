@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dnd-dice-roller/static/css/main.206f8c4e.chunk.css",
+    "main.js": "/dnd-dice-roller/static/js/main.27b94cfc.chunk.js",
+    "main.js.map": "/dnd-dice-roller/static/js/main.27b94cfc.chunk.js.map",
+    "runtime-main.js": "/dnd-dice-roller/static/js/runtime-main.2c11fa59.js",
+    "runtime-main.js.map": "/dnd-dice-roller/static/js/runtime-main.2c11fa59.js.map",
+    "static/js/2.76a75c30.chunk.js": "/dnd-dice-roller/static/js/2.76a75c30.chunk.js",
+    "static/js/2.76a75c30.chunk.js.map": "/dnd-dice-roller/static/js/2.76a75c30.chunk.js.map",
+    "static/js/3.4e211fe1.chunk.js": "/dnd-dice-roller/static/js/3.4e211fe1.chunk.js",
+    "static/js/3.4e211fe1.chunk.js.map": "/dnd-dice-roller/static/js/3.4e211fe1.chunk.js.map",
+    "index.html": "/dnd-dice-roller/index.html",
+    "static/css/main.206f8c4e.chunk.css.map": "/dnd-dice-roller/static/css/main.206f8c4e.chunk.css.map",
+    "static/js/2.76a75c30.chunk.js.LICENSE.txt": "/dnd-dice-roller/static/js/2.76a75c30.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c11fa59.js",
+    "static/js/2.76a75c30.chunk.js",
+    "static/css/main.206f8c4e.chunk.css",
+    "static/js/main.27b94cfc.chunk.js"
+  ]
+}
