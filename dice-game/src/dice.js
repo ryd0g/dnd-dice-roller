@@ -8,11 +8,13 @@ import {
   resetd10,
   resetd12,
   resetd20,
+  resetpercent,
   rolld4,
   rolld8,
   rolld10,
   rolld12,
   rolld20,
+  rollpercent,
 } from './actions/index';
 import './dice.css';
 
@@ -23,6 +25,7 @@ function Dice() {
   const d10dice = useSelector((state) => state.d10Reducer);
   const d12dice = useSelector((state) => state.d12Reducer);
   const d20dice = useSelector((state) => state.d20Reducer);
+  const percentdice = useSelector((state) => state.percentReducer);
   const dis = useDispatch();
   return (
     <div className='diceroll'>
@@ -46,6 +49,9 @@ function Dice() {
         <div className='d20border'>
           <h3>{d20dice}</h3>
         </div>
+        <div className='percentborder'>
+          <h3>{percentdice}</h3>
+        </div>
       </div>
       <button onClick={() => dis(rolld4())}>Roll D4</button>
       <button onClick={() => dis(roll())}>Roll D6</button>
@@ -53,6 +59,7 @@ function Dice() {
       <button onClick={() => dis(rolld10())}>Roll D10</button>
       <button onClick={() => dis(rolld12())}>Roll D12</button>
       <button onClick={() => dis(rolld20())}>Roll D20</button>
+      <button onClick={() => dis(rollpercent())}>Roll %</button>
       <br />
       <button onClick={() => dis(resetd4())}>Reset D4</button>
       <button onClick={() => dis(reset())}>Reset D6</button>
@@ -60,6 +67,7 @@ function Dice() {
       <button onClick={() => dis(resetd10())}>Reset D10</button>
       <button onClick={() => dis(resetd12())}>Reset D12</button>
       <button onClick={() => dis(resetd20())}>Reset D20</button>
+      <button onClick={() => dis(resetpercent())}>Reset %</button>
     </div>
   );
 }
