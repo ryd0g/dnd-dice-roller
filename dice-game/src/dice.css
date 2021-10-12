@@ -110,6 +110,18 @@ p {
   border: 1.5px solid black;
 }
 
+.percentborder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgb(252, 82, 82);
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1.5px solid black;
+}
+
 .dicebox {
   display: flex;
   justify-content: center;
