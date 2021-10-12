@@ -34,6 +34,12 @@ export const resetd12 = () => {
   };
 };
 
+export const resetpercent = () => {
+  return {
+    type: 'RESETPERCENT',
+  };
+};
+
 export const resetd20 = () => {
   return {
     type: 'RESETD20',
@@ -67,5 +73,11 @@ export const rolld10 = () => {
 export const rolld12 = () => {
   return {
     type: 'ROLLD12',
+  };
+};
+
+export const rollpercent = () => {
+  return {
+    type: 'ROLLPERCENT',
   };
 };
