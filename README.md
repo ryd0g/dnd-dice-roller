@@ -1,4 +1,4 @@
-###DND Dice Roller
+### DND Dice Roller
 
 This is a simple web app to simulate tabletop game dice rolling.
 
